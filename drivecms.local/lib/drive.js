@@ -15,7 +15,7 @@ class Drive extends Api {
 
     getSpreadsheet(fileId) {
         return this.get(
-            `https://spreadsheets.google.com/feeds/list/${fileId}/od6/public/values?alt=json`,
+            `https://spreadsheets.google.com/feeds/list/${fileId}/default/public/values?alt=json`,
             {
                 credentials: 'omit'
             }
