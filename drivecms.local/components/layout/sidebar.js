@@ -31,7 +31,7 @@ class Sidebar extends PureComponent {
                 </a>
                 <a
                     className=${css(styles.button)}
-                    href="https://github.com/misterfresh/react-drive-cms/tree/master"
+                    href="https://github.com/Ryndamere/React-drive-Test/tree/master"
                     target="_blank"
                 >
                     Source on GitHub
