@@ -24,7 +24,7 @@ class Sidebar extends PureComponent {
             <div className=${css(styles.links, showLinks && styles.showLinks)}>
                 <a
                     className=${css(styles.button)}
-                    href="https://drive.google.com/drive/folders/1r9HkrXDkPoq9hdVa3cBscvWHlsNC8D-7=drivesdk"
+                    href="https://drive.google.com/drive/folders/1r9HkrXDkPoq9hdVa3cBscvWHlsNC8D-7"
                     target="_blank"
                 >
                     Original posts on Drive
