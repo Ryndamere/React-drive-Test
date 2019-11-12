@@ -15,7 +15,7 @@ https://ryndamere.github.io/React-drive-Test/
 ### How to use:
 
 1) In your Google Drive, create folders and files following the names and structure used here : 
-https://docs.google.com/folderview?id=0B0A_zASTMp9WU0NMYW9wXzVQWjg&usp=drivesdk
+https://drive.google.com/drive/folders/1r9HkrXDkPoq9hdVa3cBscvWHlsNC8D-7
 
 2) Add to the "Dashboard" sheet the following bound script:
 https://gist.github.com/misterfresh/e1c9cf0bb4c777221f84   . 
