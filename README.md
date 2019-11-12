@@ -2,7 +2,7 @@
 Publish articles directly from Google Drive to your blog with React JS. Simple setup with no transpiling.
 
 Live demo here: 
-http://misterfresh.github.io/react-drive-cms/
+https://ryndamere.github.io/React-drive-Test/
 
 ### Features:
 - A dynamic site, but no backend to manage, no database, no server, no hosting & no maintenance
