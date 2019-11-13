@@ -137,14 +137,14 @@ let styles = StyleSheet.create({
         width: '100%',
         display: 'block',
         transition: 'width linear 750ms',
-        '@media (min-width: 768px)': {
+        /*'@media (min-width: 768px)': {
             display: 'block'
         },
         '@media (min-width: 992px)': {
             flexDirection: 'row',
             display: 'flex',
             justifyContent: 'flex-end'
-        },
+        },*/
         margin: 0,
         padding: 0,
         overflowX: 'hidden',
