@@ -137,14 +137,14 @@ let styles = StyleSheet.create({
         width: '100%',
         display: 'block',
         transition: 'width linear 750ms',
-        /*'@media (min-width: 768px)': {
+        '@media (min-width: 768px)': {
             display: 'block'
         },
         '@media (min-width: 992px)': {
             flexDirection: 'row',
             display: 'flex',
             justifyContent: 'flex-end'
-        },*/
+        },
         margin: 0,
         padding: 0,
         overflowX: 'hidden',
@@ -153,7 +153,7 @@ let styles = StyleSheet.create({
     mainNarrow: {
         margin: 0,
         width: '100%',
-        /*'@media (min-width: 768px)': {
+        '@media (min-width: 768px)': {
             width: '60%',
             display: 'block'
         },
@@ -166,7 +166,7 @@ let styles = StyleSheet.create({
             flexDirection: 'row',
             display: 'flex',
             justifyContent: 'flex-end'
-        }*/
+        }
     },
     content: {
         padding: '5rem',
