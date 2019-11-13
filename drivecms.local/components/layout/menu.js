@@ -150,7 +150,7 @@ let styles = StyleSheet.create({
         display: 'block',
         top: 0,
         left: 0,
-        height: '20rem',
+        height: '12rem',
         boxShadow: '#000 2px 2px 10px',
         paddingTop: '1rem',
         transition: 'opacity linear 750ms,width linear 750ms',
