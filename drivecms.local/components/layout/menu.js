@@ -162,7 +162,7 @@ let styles = StyleSheet.create({
     menuOpen: {
         opacity: 1,
         width: '100%',
-        /*'@media (min-width: 768px)': {
+        '@media (min-width: 768px)': {
             width: '40%'
         },
         '@media (min-width: 992px)': {
@@ -170,7 +170,7 @@ let styles = StyleSheet.create({
         },
         '@media (min-width: 1200px)': {
             width: '25%'
-        }*/
+        }
     },
     icon: {
         padding: '0 20px',
