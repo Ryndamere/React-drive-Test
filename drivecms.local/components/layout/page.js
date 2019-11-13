@@ -152,7 +152,7 @@ let styles = StyleSheet.create({
     },
     mainNarrow: {
         margin: 0,
-        paddingTop: '18%',
+        paddingTop: '12rem',
         width: '100%',
         /*'@media (min-width: 768px)': {
             width: '60%',
