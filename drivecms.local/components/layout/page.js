@@ -174,7 +174,8 @@ let styles = StyleSheet.create({
         maxWidth: '100%',
         transition: 'width linear 750ms',
         width: '100%',
-       /* marginLeft: 0,
+        marginLeft: 0,
+        /*
         '@media (min-width: 768px)': {
             width: '100%'
         },
@@ -188,7 +189,7 @@ let styles = StyleSheet.create({
     contentNarrow: {
         width: '100%',
         marginLeft: 0,
-        '@media (min-width: 768px)': {
+        /*'@media (min-width: 768px)': {
             width: '100%'
         },
         '@media (min-width: 992px)': {
@@ -196,7 +197,7 @@ let styles = StyleSheet.create({
         },
         '@media (min-width: 1200px)': {
             width: '52%'
-        }
+        }*/
     },
     menuBurger: {
         position: 'fixed',
