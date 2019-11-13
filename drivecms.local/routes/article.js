@@ -245,7 +245,7 @@ let styles = StyleSheet.create({
         display: 'block',
         transition: 'width linear 750ms',
         margin: 0,
-        padding: 0,
+        paddingTop: '12rem',
         animationName: [opacityKeyframes],
         animationDuration: '1s, 1s',
         animationIterationCount: 1,
