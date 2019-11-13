@@ -245,7 +245,7 @@ let styles = StyleSheet.create({
         display: 'block',
         transition: 'width linear 750ms',
         margin: 0,
-        paddingTop: '12rem',
+        //paddingTop: '12rem',
         animationName: [opacityKeyframes],
         animationDuration: '1s, 1s',
         animationIterationCount: 1,
@@ -253,6 +253,7 @@ let styles = StyleSheet.create({
     },
     mainNarrow: {
         width:'100%',
+        paddingTop: '12rem',
         /*'@media (min-width: 768px)': {
             width: '60%'
         },
