@@ -266,7 +266,7 @@ let styles = StyleSheet.create({
         display: 'block',
         width: '100%',
         padding: '3rem 8%',
-        /*'@media (min-width: 768px)': {
+        '@media (min-width: 768px)': {
             padding: '3rem 16%'
         },
         '@media (min-width: 992px)': {
@@ -274,7 +274,7 @@ let styles = StyleSheet.create({
         },
         '@media (min-width: 1200px)': {
             padding: '3rem 24%'
-        },*/
+        },
         overflowX: 'hidden',
         maxWidth: '100%'
     },
@@ -282,7 +282,7 @@ let styles = StyleSheet.create({
         display: 'block',
         width: '100%',
         padding: '3rem 8%',
-        /*'@media (min-width: 768px)': {
+        '@media (min-width: 768px)': {
             padding: '3rem 8%'
         },
         '@media (min-width: 992px)': {
@@ -290,7 +290,7 @@ let styles = StyleSheet.create({
         },
         '@media (min-width: 1200px)': {
             padding: '3rem 20%'
-        }*/
+        }
     },
 
     menuBurger: {
