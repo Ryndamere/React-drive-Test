@@ -29,12 +29,12 @@ let styles = StyleSheet.create({
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
         width: '100%',
-        '@media (min-width: 768px)': {
+        /*'@media (min-width: 768px)': {
             width: '100%'
         },
         '@media (min-width: 992px)': {
             width: '48%'
-        },
+        },*/
         position: 'relative',
         marginBottom: '2rem',
         display: 'flex',
