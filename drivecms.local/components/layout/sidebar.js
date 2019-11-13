@@ -58,7 +58,7 @@ let styles = StyleSheet.create({
         display: 'flex',
         position: 'relative',
         width: '100%',
-        '@media (min-width: 768px)': {
+       /* '@media (min-width: 768px)': {
             height: '45rem',
             position: 'relative',
             width: '100%'
@@ -76,7 +76,7 @@ let styles = StyleSheet.create({
             position: 'fixed',
             width: '40%',
             left: 0
-        },
+        },*/
         overflowX: 'hidden',
         maxWidth: '100%'
     },
@@ -87,7 +87,7 @@ let styles = StyleSheet.create({
         backgroundSize: 'cover',
         display: 'flex',
         width: '100%',
-        '@media (min-width: 768px)': {
+        /*'@media (min-width: 768px)': {
             height: '45rem',
             position: 'relative',
             width: '100%'
@@ -103,7 +103,7 @@ let styles = StyleSheet.create({
             position: 'fixed',
             width: '35%',
             left: '25%'
-        }
+        }*/
     },
     info: {
         padding: '5%',
