@@ -153,7 +153,7 @@ let styles = StyleSheet.create({
     mainNarrow: {
         margin: 0,
         width: '100%',
-        '@media (min-width: 768px)': {
+        /*'@media (min-width: 768px)': {
             width: '60%',
             display: 'block'
         },
@@ -166,7 +166,7 @@ let styles = StyleSheet.create({
             flexDirection: 'row',
             display: 'flex',
             justifyContent: 'flex-end'
-        }
+        }*/
     },
     content: {
         padding: '5rem',
