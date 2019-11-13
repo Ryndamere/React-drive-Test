@@ -252,7 +252,7 @@ let styles = StyleSheet.create({
         maxWidth: '100%'
     },
     mainNarrow: {
-        '@media (min-width: 768px)': {
+        /*'@media (min-width: 768px)': {
             width: '60%'
         },
         '@media (min-width: 992px)': {
@@ -260,7 +260,7 @@ let styles = StyleSheet.create({
         },
         '@media (min-width: 1200px)': {
             width: '75%'
-        }
+        }*/
     },
     content: {
         display: 'block',
