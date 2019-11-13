@@ -153,7 +153,7 @@ let styles = StyleSheet.create({
         height: '12rem',
         boxShadow: '#000 2px 2px 10px',
         paddingLeft: '5rem',
-        paddingTop: '1rem',
+        //paddingTop: '1rem',
         transition: 'opacity linear 750ms,width linear 750ms',
         width: 0,
         opacity: 0,
