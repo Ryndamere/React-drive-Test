@@ -143,6 +143,9 @@ export default connect(
 )(Menu)
 
 let styles = StyleSheet.create({
+    li: {
+        display: inline
+    },
     menu: {
         backgroundColor: '#333',
         overflow: 'hidden',
