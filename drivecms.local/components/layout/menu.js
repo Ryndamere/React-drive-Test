@@ -81,7 +81,7 @@ class Menu extends Component {
                             />
                             <button
                                 title=${category.title}
-                                onClick=${this.toggleCategory}
+                                onClick=/React-drive-Test/categories/${category}
                                 className=${css(styles.itemLink)}
                                 data-category=${category.id}
                             >
