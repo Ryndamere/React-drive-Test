@@ -144,7 +144,7 @@ export default connect(
 
 let styles = StyleSheet.create({
     li: {
-        display: inline
+        display: 'inline'
     },
     menu: {
         backgroundColor: '#333',
