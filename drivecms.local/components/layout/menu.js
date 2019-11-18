@@ -81,7 +81,7 @@ class Menu extends Component {
                             />
                             <button
                                 title=${category.title}
-                                onClick=${Object.values(categories).map(category)}
+                                onClick=${this.toggleCategory}
                                 className=${css(styles.itemLink)}
                                 data-category=${category.id}
                             >
