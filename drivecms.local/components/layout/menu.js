@@ -186,6 +186,7 @@ let styles = StyleSheet.create({
     },
     item: {
         margin: 0,
+        display: 'inline',
         listStyle: 'none',
         padding: '10px 0',
         fontSize: '1.6rem'
