@@ -71,10 +71,9 @@ class Menu extends Component {
                         <//>
                     </li>
                 </ul>
-{/<hr className=${css(styles.separator)} />/}
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
-                        <li key=${category.id}>
+                        <li key=${category.id} style="display:inline;">
                             <i
                                 className=${
                                     'fas fa-angle-right ' + css(styles.icon)
