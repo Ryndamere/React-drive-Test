@@ -120,7 +120,7 @@ let styles = StyleSheet.create({
         display: 'block',
         top: 0,
         left: 0,
-        Height: '12rem',
+        height: '10rem',
         boxShadow: '#000 2px 2px 10px',
         //paddingLeft: '5rem',
         //paddingTop: '1rem',
@@ -144,13 +144,13 @@ let styles = StyleSheet.create({
         }*/
     },
     icon: {
-        padding: '0 20px',
+        paddingRight: '12px',
         color: '#DADADA',
         fontSize: '1.6rem'
     },
     list: {
         paddingTop: '2rem',
-        paddingLeft: '5.2rem',
+        paddingLeft: '5.5rem',
         fontSize: '1.6rem',
         marginBottom: 0
     },
@@ -168,6 +168,7 @@ let styles = StyleSheet.create({
         borderBottom: '0 transparent',
         backgroundColor: 'transparent',
         outline: 0,
+        marginRight: '8px',
         border: 0,
         cursor: 'pointer',
         ':hover': {
