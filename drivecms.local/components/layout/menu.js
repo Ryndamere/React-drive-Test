@@ -153,9 +153,8 @@ let styles = StyleSheet.create({
         fontSize: '1.6rem'
     },
     list: {
-        paddingTop: '15px',
+        padding: '15px, 0, 0, 0',
         fontSize: '1.6rem',
-        marginBottom: 20,
         marginTop: 0
     },
     item: {
