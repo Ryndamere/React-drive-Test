@@ -146,11 +146,11 @@ let styles = StyleSheet.create({
     icon: {
         paddingRight: '12px',
         color: '#DADADA',
-        fontSize: '1.6rem'
+        fontSize: '1.8rem'
     },
     list: {
         paddingTop: '1rem',
-        paddingLeft: '6rem',
+        paddingLeft: '6.2rem',
         fontSize: '1.6rem',
         marginBottom: 0
     },
