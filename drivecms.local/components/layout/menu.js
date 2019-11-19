@@ -73,7 +73,7 @@ class Menu extends Component {
                 </ul>
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
-                        <${Link} to="/categories/${category}">
+                        <${Link} to="/categories">
                         <li key=${category.id} style="display:inline;">
                             <i
                                 className=${
