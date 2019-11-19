@@ -74,7 +74,7 @@ class Menu extends Component {
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
                         <${Link} title=${category.title} to=${category.uri}>
-                        <li key=${category.id} style="padding:'10px';">
+                        <li key=${category.id}>
                             <i
                                 className=${
                                     'fas fa-angle-saxophone' + css(styles.icon)
