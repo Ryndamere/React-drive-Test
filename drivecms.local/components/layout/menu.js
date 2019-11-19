@@ -149,8 +149,8 @@ let styles = StyleSheet.create({
         fontSize: '1.6rem'
     },
     list: {
-        paddingTop: '2rem',
-        paddingLeft: '5.5rem',
+        paddingTop: '1rem',
+        paddingLeft: '6rem',
         fontSize: '1.6rem',
         marginBottom: 0
     },
@@ -168,7 +168,7 @@ let styles = StyleSheet.create({
         borderBottom: '0 transparent',
         backgroundColor: 'transparent',
         outline: 0,
-        marginRight: '8px',
+        marginRight: '13px',
         border: 0,
         cursor: 'pointer',
         ':hover': {
