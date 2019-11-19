@@ -75,11 +75,7 @@ class Menu extends Component {
                     ${Object.values(categories).map((category, index) => html`
                         <${Link} title=${category.title} to=${category.uri}>
                         <li key=${category.id} style="display: inline;">
-                            <i
-                                className=${
-                                    'fas fa-angle-saxophone' + css(styles.icon)
-                                }
-                            />
+                         
                             <button
                                 title=${category.title}
                                 className=${css(styles.itemLink)}
@@ -119,18 +115,18 @@ let styles = StyleSheet.create({
     },
     menu: {
         backgroundColor: '#333',
-        overflowY: 'hidden', 
-        overflowX: 'auto',
+        overflow: 'auto',
         zIndex: 10,
         display: 'block',
         top: 0,
         left: 0,
-        minHeight: '12rem',
+        Height: '12rem',
         boxShadow: '#000 2px 2px 10px',
         //paddingLeft: '5rem',
         //paddingTop: '1rem',
         transition: 'opacity linear 750ms,width linear 750ms',
         opacity: 0,
+        width:0,
         paddingRight: 0,
         position: 'fixed'
     },
