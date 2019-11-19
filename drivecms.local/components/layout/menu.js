@@ -119,25 +119,25 @@ let styles = StyleSheet.create({
     },
     menu: {
         backgroundColor: '#333',
-        overflow: 'hidden',
+        overflowY: 'hidden', 
+        overflowX: 'auto',
         zIndex: 10,
         display: 'block',
         top: 0,
         left: 0,
-        height: '12rem',
+        minHeight: '12rem',
         boxShadow: '#000 2px 2px 10px',
-        overflowX: 'auto',
         //paddingLeft: '5rem',
         //paddingTop: '1rem',
         transition: 'opacity linear 750ms,width linear 750ms',
-        width: 0,
+        Width: 0,
         opacity: 0,
         paddingRight: 0,
         position: 'fixed'
     },
     menuOpen: {
         opacity: 1,
-        width: '100%',
+        minWidth: '100%',
         /*'@media (min-width: 768px)': {
             width: '40%'
         },
