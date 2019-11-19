@@ -82,7 +82,7 @@ class Menu extends Component {
                             />
                             <button
                                 title=${category.title}
-                                {/*onClick="location.href='/React-drive-Test/categories/${this.category}';"*/}
+                                
                                 className=${css(styles.itemLink)}
                                 data-category=${category.id}
                             >
