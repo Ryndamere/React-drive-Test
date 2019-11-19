@@ -88,7 +88,7 @@ class Menu extends Component {
                             >
                                 ${category.title}
                             </button>
-
+                            <//>
                             <ul className=${css(styles.subList)}>
                                 ${Object.values(articles)
                                     .filter(
@@ -114,7 +114,6 @@ class Menu extends Component {
                                                 )}
                                             >
                                                 ${article.title}
-                                            <//>
                                         </li>
                                     `)}
                             </ul>
