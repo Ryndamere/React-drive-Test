@@ -126,7 +126,7 @@ let styles = StyleSheet.create({
         left: 0,
         height: '12rem',
         boxShadow: '#000 2px 2px 10px',
-        paddingLeft: '5rem',
+        //paddingLeft: '5rem',
         //paddingTop: '1rem',
         transition: 'opacity linear 750ms,width linear 750ms',
         width: 0,
@@ -153,7 +153,8 @@ let styles = StyleSheet.create({
         fontSize: '1.6rem'
     },
     list: {
-        paddingTop: '10rem',
+        paddingTop: '2rem',
+        paddingLeft: '5rem',
         fontSize: '1.6rem',
         marginBottom: 0
     },
