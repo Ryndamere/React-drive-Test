@@ -118,7 +118,6 @@ class Menu extends Component {
                                     `)}
                             </ul>
                         </li>
-                       <//>
                     `)}
                 </ul>
             </nav>
