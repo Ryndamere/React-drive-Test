@@ -77,7 +77,7 @@ class Menu extends Component {
                         <li key=${category.id} style="display:inline;">
                             <i
                                 className=${
-                                    'fas fa-angle-right ' + css(styles.icon)
+                                    'fas fa-angle-saxophone' + css(styles.icon)
                                 }
                             />
                             <button
@@ -125,19 +125,18 @@ let styles = StyleSheet.create({
         display: 'block',
         top: 0,
         left: 0,
-        minHeight: '12rem',
+        minHeight: '10rem',
         boxShadow: '#000 2px 2px 10px',
         //paddingLeft: '5rem',
         //paddingTop: '1rem',
         transition: 'opacity linear 750ms,width linear 750ms',
-        Width: 0,
         opacity: 0,
         paddingRight: 0,
         position: 'fixed'
     },
     menuOpen: {
         opacity: 1,
-        minWidth: '100%',
+        width: '100%',
         /*'@media (min-width: 768px)': {
             width: '40%'
         },
