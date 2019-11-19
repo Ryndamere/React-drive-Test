@@ -73,7 +73,7 @@ class Menu extends Component {
                 </ul>
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
-                        <${Link} to="/categories/${category}">
+                        <${Link} to="/categories/${category.title}">
                         <li key=${category.id} style="display:inline;">
                             <i
                                 className=${
@@ -82,13 +82,12 @@ class Menu extends Component {
                             />
                             <button
                                 title=${category.title}
-                                
                                 className=${css(styles.itemLink)}
                                 data-category=${category.id}
                             >
                                 ${category.title}
                             </button>
-                            <//>
+                            
                             <ul className=${css(styles.subList)}>
                                 ${Object.values(articles)
                                     .filter(
@@ -118,6 +117,7 @@ class Menu extends Component {
                                     `)}
                             </ul>
                         </li>
+                        <//>
                     `)}
                 </ul>
             </nav>
