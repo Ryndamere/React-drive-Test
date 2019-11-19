@@ -126,6 +126,7 @@ let styles = StyleSheet.create({
         left: 0,
         height: '12rem',
         boxShadow: '#000 2px 2px 10px',
+        overflowX: 'auto',
         //paddingLeft: '5rem',
         //paddingTop: '1rem',
         transition: 'opacity linear 750ms,width linear 750ms',
