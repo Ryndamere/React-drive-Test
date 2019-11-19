@@ -73,7 +73,7 @@ class Menu extends Component {
                 </ul>
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
-                        <${Link} title=${category} to=${category.uri}>
+                        <${Link} title=${category.title} to=${category.uri}>
                         <li key=${category.id} style="display:inline;">
                             <i
                                 className=${
@@ -153,7 +153,7 @@ let styles = StyleSheet.create({
         fontSize: '1.6rem'
     },
     list: {
-        padding: '10px 0',
+        paddingTop: '15px',
         fontSize: '1.6rem',
         marginBottom: 20,
         marginTop: 0
@@ -184,7 +184,7 @@ let styles = StyleSheet.create({
         fontFamily: 'Arial'
     },
     separator: {
-        margin: '20px auto',
+        //margin: '20px auto',
         display: 'block',
         border: '1px solid #dededc',
         height: 0,
