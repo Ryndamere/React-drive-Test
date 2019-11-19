@@ -73,6 +73,7 @@ class Menu extends Component {
                 </ul>
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
+                        <${Link} to="/React-drive-Test/categories/${category}">
                         <li key=${category.id} style="display:inline;">
                             <i
                                 className=${
@@ -81,14 +82,14 @@ class Menu extends Component {
                             />
                             <button
                                 title=${category.title}
-                                onClick="location.href='/React-drive-Test/categories/${this.category}';"
+                                <!--onClick="location.href='/React-drive-Test/categories/${this.category}';"-->
                                 className=${css(styles.itemLink)}
                                 data-category=${category.id}
                             >
                                 ${category.title}
                             </button>
 
-                            <ul className=${css(styles.subList)}>
+                            <!--<ul className=${css(styles.subList)}>
                                 ${Object.values(articles)
                                     .filter(
                                         article =>
@@ -116,8 +117,9 @@ class Menu extends Component {
                                             <//>
                                         </li>
                                     `)}
-                            </ul>
+                            </ul>-->
                         </li>
+                       <//>
                     `)}
                 </ul>
             </nav>
