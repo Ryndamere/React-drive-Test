@@ -73,7 +73,7 @@ class Menu extends Component {
                 </ul>
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
-                        <${Link} to="/categories/${category}">
+                        <${Link} to="/React-drive-Test/categories/"+${category}>
                         <li key=${category.id} style="display:inline;">
                             <i
                                 className=${
@@ -88,34 +88,6 @@ class Menu extends Component {
                                 ${category.title}
                             </button>
                             
-                            <ul className=${css(styles.subList)}>
-                                ${Object.values(articles)
-                                    .filter(
-                                        article =>
-                                            article.categoryId === category.id
-                                    )
-                                    .map(article => html`
-                                        <li
-                                            key=${article.id}
-                                            className=${css(
-                                                styles.subItem,
-                                                category.id ===
-                                                    activeCategory &&
-                                                    styles.subItemExpanded
-                                            )}
-                                        >
-                                            <${Link}
-                                                key=${article.id}
-                                                title=${article.title}
-                                                to=${article.uri}
-                                                className=${css(
-                                                    styles.subItemLink
-                                                )}
-                                            >
-                                                ${article.title}
-                                        </li>
-                                    `)}
-                            </ul>
                         </li>
                         <//>
                     `)}
