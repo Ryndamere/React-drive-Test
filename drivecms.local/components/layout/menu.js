@@ -120,7 +120,7 @@ let styles = StyleSheet.create({
         display: 'block',
         top: 0,
         left: 0,
-        height: '10rem',
+        minHeight: '10rem',
         boxShadow: '#000 2px 2px 10px',
         //paddingLeft: '5rem',
         //paddingTop: '1rem',
