@@ -72,10 +72,11 @@ class Menu extends Component {
                     </li>
                     <li className=${css(styles.item)}>
                       <i className=${'fas fa-search' + css(styles.icon)} />
-                        <input className='searchBox'
+                        <input className=${css(styles.searchBox)}
                         type='text'
                         placeholder='Search articles'
                         />
+                    </li>
                 </ul>
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
