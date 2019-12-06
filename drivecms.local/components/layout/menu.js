@@ -70,6 +70,12 @@ class Menu extends Component {
                             Contact
                         <//>
                     </li>
+                    <li className=${css(styles.item)}>
+                      <i className=${'fas fa-search' + css(styles.icon)} />
+                        <input className=${css(styles.searchBox)}
+                        type='text'
+                        placeholder='Search articles'
+                        />
                 </ul>
                 <ul className=${css(styles.list)}>
                     ${Object.values(categories).map((category, index) => html`
@@ -179,6 +185,12 @@ let styles = StyleSheet.create({
             outline: 0
         },
         fontFamily: 'Arial'
+    },
+    searchBox: {
+      borderRadius: '5px',
+      length: '5rem',
+      height: '2rem',
+      border: '2px'
     },
     separator: {
         //margin: '20px auto',
