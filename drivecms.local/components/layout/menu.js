@@ -71,10 +71,10 @@ class Menu extends Component {
                         <//>
                     </li>
                     <li className=${css(styles.item)}>
-                      <i className=${'fas fa-search' + css(styles.icon)} />
+                      <i className=${'fas fa-search ' + css(styles.icon)} />
                         <input className=${css(styles.searchBox)}
                         type='text'
-                        placeholder='Search articles'
+                        placeholder=' Search articles'
                         />
                     </li>
                 </ul>
@@ -188,10 +188,11 @@ let styles = StyleSheet.create({
         fontFamily: 'Arial'
     },
     searchBox: {
-      borderRadius: '5px',
-      length: '5rem',
-      height: '2rem',
-      border: '2px'
+      borderRadius: '7px',
+      width: '15rem',
+      height: '2.5rem',
+      border: '4px',
+      padding: '4px'
     },
     separator: {
         //margin: '20px auto',
